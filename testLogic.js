@@ -13,3 +13,23 @@ function pyramid(pattern, rows, bool) {
 }
 const draw = pyramid("dude", 5, false);
 console.log(draw);
+//@@@@@@@@
+//@@@@@@
+//@@@@
+//@@
+
+
+function test(pattern, rows) {
+for (let i = 0; i <= rows; i++) {
+  let pat = pattern.repeat(i);
+  console.log(pat);
+}
+return "";
+}
+const tester = test("f", 5);
+console.log(tester);
+//f
+//ff
+//fff
+//ffff
+//fffff
